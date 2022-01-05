@@ -7572,11 +7572,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "Plantilla7WhileLeapYear",
-      "projectName": "Plantilla7WhileLeapYear",
-      "projectPath": "C:\\Users\\flopy\\OneDrive\\Documentos\\UiPath\\Plantilla7WhileLeapYear\\.local",
+      "projectUniqueName": "ForEachExercise",
+      "projectName": "ForEachExercise",
+      "projectPath": "C:\\Users\\flopy\\OneDrive\\Documentos\\UiPath\\ForEachExercise\\.local",
       "packagesPath": "C:\\Users\\flopy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flopy\\OneDrive\\Documentos\\UiPath\\Plantilla7WhileLeapYear\\.local"
+      "outputPath": "C:\\Users\\flopy\\OneDrive\\Documentos\\UiPath\\ForEachExercise\\.local"
     },
     "frameworks": {
       "net461": {
