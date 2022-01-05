@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4iGbANkMgwdfSZyUUxBEg+V2nEcgyXCXnLrWFnUbopzpqbS8Sno7ozxDR8+xhDqhbAEheDtqiqFjUkjxALKBzQ==",
+  "dgSpecHash": "YhViOQsrhRbeF/v22dfDk/hK3uQJfliZVMXDS2U/v7GHfVSgsJK0eGGWeGbWHzZqStB37KyPryyW4X4UaMqVmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\flopy\\OneDrive\\Documentos\\UiPath\\ForEachExercise\\.local\\",
+  "projectFilePath": "C:\\Users\\flopy\\OneDrive\\Documentos\\UiPath\\8_ForEach\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\flopy\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
     "C:\\Users\\flopy\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",

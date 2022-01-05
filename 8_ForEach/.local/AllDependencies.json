@@ -7572,11 +7572,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "ForEachExercise",
-      "projectName": "ForEachExercise",
-      "projectPath": "C:\\Users\\flopy\\OneDrive\\Documentos\\UiPath\\ForEachExercise\\.local",
+      "projectUniqueName": "8_ForEach",
+      "projectName": "8_ForEach",
+      "projectPath": "C:\\Users\\flopy\\OneDrive\\Documentos\\UiPath\\8_ForEach\\.local",
       "packagesPath": "C:\\Users\\flopy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flopy\\OneDrive\\Documentos\\UiPath\\ForEachExercise\\.local"
+      "outputPath": "C:\\Users\\flopy\\OneDrive\\Documentos\\UiPath\\8_ForEach\\.local"
     },
     "frameworks": {
       "net461": {

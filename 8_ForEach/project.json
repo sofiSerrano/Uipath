@@ -1,6 +1,6 @@
 {
-  "name": "ForEachExercise",
-  "description": "Proceso en blanco",
+  "name": "8_ForEach",
+  "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.11.4]",
@@ -46,7 +46,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "c4cda47a-eb75-412d-923b-1b10dc7c9ba0",
+      "uniqueId": "a75e611d-4226-44cf-88b5-73d0f177f1cd",
       "input": [],
       "output": []
     }
