@@ -7572,11 +7572,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "ProcessUserData",
-      "projectName": "ProcessUserData",
-      "projectPath": "C:\\Users\\flopy\\OneDrive\\Documentos\\UiPath\\2_ProcessUserData\\.local",
+      "projectUniqueName": "GenericValue",
+      "projectName": "GenericValue",
+      "projectPath": "C:\\Users\\flopy\\OneDrive\\Documentos\\UiPath\\2_Practice\\.local",
       "packagesPath": "C:\\Users\\flopy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flopy\\OneDrive\\Documentos\\UiPath\\2_ProcessUserData\\.local"
+      "outputPath": "C:\\Users\\flopy\\OneDrive\\Documentos\\UiPath\\2_Practice\\.local"
     },
     "frameworks": {
       "net461": {
