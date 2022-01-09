@@ -1,15 +1,17 @@
 {
-  "name": "Practice3_VariablesDataTypeControlFlow",
-  "description": "Error codes array",
+  "name": "10_DobleUi",
+  "description": ", we will use the basic building blocks of UI Automation in Studio:  the “Use Application/Browser” activity and the “Type Into”, “Click” and “Get Text” activities.  \r\nDoubleUI is a demo application used for recording transactions. ",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.System.Activities": "[20.10.4]",
-    "UiPath.UIAutomation.Activities": "[20.10.9]"
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Mail.Activities": "[1.12.3]",
+    "UiPath.System.Activities": "[21.10.3]",
+    "UiPath.UIAutomation.Activities": "[21.10.4]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "20.10.6.0",
+  "studioVersion": "21.10.4.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
@@ -25,7 +27,7 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": false
+    "mustRestoreAllDependencies": true
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -44,7 +46,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "d5c6581b-a0b1-4ed0-bf9f-1edb183d1abf",
+      "uniqueId": "d8e3b6a2-a4a8-4980-84cc-654be40f2de5",
       "input": [],
       "output": []
     }
