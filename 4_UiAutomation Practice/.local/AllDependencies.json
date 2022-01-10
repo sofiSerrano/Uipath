@@ -7572,11 +7572,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "11_UiAutomation",
-      "projectName": "11_UiAutomation",
-      "projectPath": "C:\\Users\\flopy\\OneDrive\\Documentos\\UiPath\\11_UiAutomation\\.local",
+      "projectUniqueName": "4_UiAutomation Practice",
+      "projectName": "4_UiAutomation Practice",
+      "projectPath": "C:\\Users\\flopy\\OneDrive\\Documentos\\UiPath\\4_UiAutomation Practice\\.local",
       "packagesPath": "C:\\Users\\flopy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flopy\\OneDrive\\Documentos\\UiPath\\11_UiAutomation\\.local"
+      "outputPath": "C:\\Users\\flopy\\OneDrive\\Documentos\\UiPath\\4_UiAutomation Practice\\.local"
     },
     "frameworks": {
       "net461": {
