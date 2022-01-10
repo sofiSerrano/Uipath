@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="dUT3zFVYdESNd6JbO9jCfg" DesignTimeRectangle="8, 51, 503, 493" ElementType="InputBox" FriendlyName="'editable text'" FullSelectorArgument="&lt;wnd aaname='Horizontal' cls='Edit' /&gt;&lt;ctrl name='Editor de texto' role='editable text' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Horizontal' cls='Edit' /&gt;&lt;ctrl name='Editor de texto' role='editable text' automationid='' /&gt;" Guid="e2af3ff4-d95d-4db2-99e4-143b1f5e8ffb" ScopeSelectorArgument="&lt;wnd app='notepad.exe' cls='Notepad' title='Sin título: Bloc de notas' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0WKZ0uzgpDUmJEkG3wrZjdg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="72f8752979b98a99058a9239849a9caa.png" xmlns="">0HYXawfP-H0mlrVF-LGWutg</imageRef>
+</TargetAnchorable>

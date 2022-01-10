@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="yVEbk4-YLEuT1rB73_HGFQ" Selector="&lt;html app='chrome.exe' title='Password Generator'/&gt;" Url="https://www.rpasamples.com/passwordgenerator" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0obY5umma3kSuXtUqnRnqoQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="2a74281083eb0bdd9512078457de3011.png" xmlns="">05DryJoU_i0u0GfsmLhREow</imageRef>
+</TargetApp>

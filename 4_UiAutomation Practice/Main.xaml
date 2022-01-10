@@ -1,54 +1,149 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}"
-xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
-xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities"
-xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
-xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
-xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
-xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <TextExpression.NamespacesForImplementation>
-        <sco:Collection x:TypeArguments="x:String">
-            <x:String>System.Activities</x:String>
-            <x:String>System.Activities.Statements</x:String>
-            <x:String>System.Activities.Expressions</x:String>
-            <x:String>System.Activities.Validation</x:String>
-            <x:String>System.Activities.XamlIntegration</x:String>
-            <x:String>Microsoft.VisualBasic</x:String>
-            <x:String>Microsoft.VisualBasic.Activities</x:String>
-            <x:String>System</x:String>
-            <x:String>System.Collections</x:String>
-            <x:String>System.Collections.Generic</x:String>
-            <x:String>System.Data</x:String>
-            <x:String>System.Diagnostics</x:String>
-            <x:String>System.Drawing</x:String>
-            <x:String>System.IO</x:String>
-            <x:String>System.Linq</x:String>
-            <x:String>System.Net.Mail</x:String>
-            <x:String>System.Xml</x:String>
-            <x:String>System.Xml.Linq</x:String>
-            <x:String>UiPath.Core</x:String>
-            <x:String>UiPath.Core.Activities</x:String>
-            <x:String>System.Windows.Markup</x:String>
-        </sco:Collection>
-    </TextExpression.NamespacesForImplementation>
-    <TextExpression.ReferencesForImplementation>
-        <sco:Collection x:TypeArguments="AssemblyReference">
-            <AssemblyReference>System.Activities</AssemblyReference>
-            <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
-            <AssemblyReference>mscorlib</AssemblyReference>
-            <AssemblyReference>System.Data</AssemblyReference>
-            <AssemblyReference>System</AssemblyReference>
-            <AssemblyReference>System.Drawing</AssemblyReference>
-            <AssemblyReference>System.Core</AssemblyReference>
-            <AssemblyReference>System.Xml</AssemblyReference>
-            <AssemblyReference>System.Xml.Linq</AssemblyReference>
-            <AssemblyReference>PresentationFramework</AssemblyReference>
-            <AssemblyReference>WindowsBase</AssemblyReference>
-            <AssemblyReference>PresentationCore</AssemblyReference>
-            <AssemblyReference>System.Xaml</AssemblyReference>
-            <AssemblyReference>UiPath.System.Activities</AssemblyReference>
-            <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
-            <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
-        </sco:Collection>
-    </TextExpression.ReferencesForImplementation>
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="680,1424" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="476,1872" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Start process&quot;]" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Password Generator" sap:VirtualizedContainerService.HintSize="434,918" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d77cac7b-38d8-4ad9-83d4-cdabb923951f" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,702" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password length'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,216" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="12" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.rpasamples.com/passwordgenerator" ContentHash="bqv2eid53EK5IW45ZL8Phw" DesignTimeRectangle="501, 289, 34, 35" ElementType="InputBox" FriendlyName="'24'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aaname='' /&gt;" Guid="2d076097-bf07-470a-95fd-b23987c2f8da" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACYAAAAnCAYAAABjYToLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH4SURBVFhH7ZU9a8JQFIb7G/w7+RsXnKW7U3CtWyeXBhc76KZSLIgdikOxIBlEh6JLXDIUAg6BQkC4UHh7ktxE8+HHpdGmkAPPoOd+PJx77s1NqVRCHsm/mKIouaAQk6UQk6UQk+UMMYZ6ewJj44B/Iwzu2DBeG6gkxh+grGHuuDMdzB9S8jFOiDFoM9sT8eKbg28JLn5T8I0Orbw/Jw2G7jqYlIEYay/hL8dhve9Xh6rYW9IWfjgLLTIvjvpiinXcyECsuxZrrQdge/8HqG+Wn98u0UnJe9RGMF0r7sDZuoN/LdaAbtGxUV+ZL9FJIQ9zUTUTo7S8omLiuXOYw06WPXaC8KjTxe6nfn/yVYcqnmnzH4NhEBz15xjVWJ41RTWdubgcVxLbNTTHss2iefdp+BISzSB3BTH1yfCr4W5DNzJ6MRg6K185mruoGEODbqK/LW2x6kKNjakORSVtHfeR3MXEVHQ/do+tvWglX/3gaYCFSS2Wu4gY9Yy+CepEV/+1nvquKdR3MnHsYT4tdtsSjUzBbeiPleSYgGfD/2QdIAz6prm/rWkjfR3iuFh4u9zFTIzvYrdPigyPUpuJu0dSo0TPyJKVWJka2bM6Jw59kvbJSqxneFueF9cU+2MKMVkKMVkKMVn+j1i/388FhZgsCbG8kVOxEn4Ajy9BRcK+p+QAAAAASUVORK5CYII=" InformativeScreenshot="1fb6688ac921f11cceff37132b241428.png" IsResponsive="True" Reference="5gX25v-ebkeu_mM__gCk4g/MuQgIt-1k0uZNzW9-hEUXA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Password Generator' /&gt;" SearchSteps="FuzzySelector, Image">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="315, 292, 184, 27" ElementType="Text" FriendlyName="'Password length'" FullSelectorArgument="&lt;webctrl aaname='Password length:' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password length:' tag='SPAN' type='' check:text='Password length:' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NCheck Action="Uncheck" DisplayName="Check/Uncheck 'Symbols'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NCheck_1">
+              <uix:NCheck.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.rpasamples.com/passwordgenerator" ContentHash="ysEdCVgp1keCCAAzJrTdmg" DesignTimeRectangle="885, 342, 20, 20" ElementType="CheckBox" FriendlyName="'Checkbox'" FullSelectorArgument="&lt;webctrl id='chkSymbols' tag='INPUT' type='checkbox' /&gt;" FuzzySelectorArgument="&lt;webctrl id='chkSymbols' tag='INPUT' type='checkbox' aaname='' /&gt;" Guid="95ff5dbc-6630-4cef-a7c8-2dffd617946c" InformativeScreenshot="f473d0e9d36c8cb667ba0f68e2144280.png" Reference="5gX25v-ebkeu_mM__gCk4g/Ecs2115gYEmxS7n_F7ZTEA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Password Generator' /&gt;" SearchSteps="FuzzySelector">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="909, 337, 92, 28" ElementType="Text" FriendlyName="'Symbols'" FullSelectorArgument="&lt;webctrl aaname='Symbols' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Symbols' tag='DIV' type='' check:text='Symbols' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGAAAAAgCAYAAADtwH1UAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVNSURBVGhD7Vg/a+NIFL/PoG8i/AVEPsAatjGkWLgiZovDnXGxmMAh0gSzsJgUwVsEkyJ4iwUdBJTiQCkC2iI4RUAugl2kELhQkWIgxbv3pJnRjDTyJoeNNnd65AfxaP6+37x/85tlWdCgPjQE1IyGgJrREFAzGgJqRkNAzWgIqBkVBDjQPwsgekyAPUMujEGyCsE77oJtHFcvhtdJts/F1Ph9m5gusqWS66Hx+0tRJmB/DGGcTb5J2P0Muq3C2JrxHyCgA94qmxhYDOGZCx/e2fybDe3fXZjexMB4F1r8V7KEt0/ARx+yy59AcCgUX0bvUphIBNNfyArePgFfo2xWUqzaXkRrBkvq9hyDP8jauoKUJIBhsT+HVNDdJLUc8Tu1pIMxBCv+nYQlEF30wUnHdmB8FUEiTO8ZY9HCA3evYn4kwD6YQIgxTEoSw1zOZ8BeH6bXyhoktIersdHVVhFA5/AXeuxktPZfI+M8FRbAYP7F0Tr+FO+9jBSynk+G79YQAq6P+UnWJgl4wIOn/+HKT0zbfHyJbm/BtYJJAP7lstbJlgTggWMxR2EMQ3I6yhiCfYjnVvvQHjQi8ELu62NMBNiHgTwHXZLiPGw1g54yB6EUA+RhUZJFALPPfegUbpoZbZg98HEmszwKs9jxFILL26TCSNYhjA+E23NgfKtqIIHwJM+8HJwrG8kgPObzF+djS/AG4hLZ0D0RY4jUnhxjtUYQPokP6h7oNk9gLgYVyC4ToJ7f1SzNOcqJmZ/qrr1AAKI1BH+lHp4LmuPyNgDv1K0kxD7nLkxRsoB7k83JblzZlisMXdkfen9rkG86vlIUlqILPvd48WVXtufzma2w8z2zUXV/7W+87Rlv+fvyGGtfWLauvDIBwsIpfirjOUY/8PxoDvHf+fkJZQJSYMZzOIXgPtZ9ohSc6GZS9mktvDGp6ePNPFK/ufyW6YrJXYYpbkwxEqUfjco0uQA538qDttJXQsQumjONXba8tezHqNyfY3yX9YG7sWwrr59fCvYYwvTPTnW8UVBBgA773QdwT72MELUwI7PUSLBhwjer3nTrmLuf2Nd8oFSYMWv59wSobTryOBSdm36bIRMM3H+Xt5nWb59F2TmFULLwGEFwMYKeTOd1vIgAHVglX+RBU/OnhJN59kExc3GDVHdBeCsEWMK1KpZqWp/gDGYwV7MvRdjKL2VuCgEuBDwViM70TiakPo2kpDzhboQbGnO3hEGx4GNrJSA94ystQHFtVQRItNrQ+zwF/2apu/GHmeYeFQLaeRXM8/T8WxmblCcDLvlVYRGFhQm7IoDWMu5fTZV5DBDzVMeA3K1ujgGbgFnYhQjleo2luSCZEeAGwy8d2V4CZkri5hg38IlnMGiyHreU6LzsA3dGAFlbIW8nyApecSWvyYLUM5TWH/iwxLwf2BwmptcBoZNNBKSKXae9UknuPRgN8mieBmN6JRXnpALFtGmrxzMCXog8mze1OwJQtLoCb+DXOVcAQ/fTlmO2VwcI14srLLDgUn19qwszUV8VEpFyEH7haygVOv6G9yLpN0kqXNquCChV1vzsJMUiibCtSriN7lasS5LOQ1YhhGG9U9BZmYAUDgYQD8JVom8Eha2XEFa8a2iQ/jZ/eihiZwRgG2Uj0TrfPFtH4CvVdAl7fZgVA2YSv/otyBlg/URvQRqBCcS3M+gbCtgKArYAQYChKm6QY2cE9K4yF1S8IQ10bJUAZy97/HIGePtTEzRnIw1ybJUA4ReF0O3/WT3xf8dWCRhyt0NvIPRYV3x3b1DG7oJwgxehIaBmNATUCgv+AXjS8zEblAWjAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NCheck.Target>
+            </uix:NCheck>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Copy to clipboard'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.rpasamples.com/passwordgenerator" ContentHash="t8BLuuOCdEKvkJtz_0cPkA" DesignTimeRectangle="1081, 204, 48, 48" ElementType="Button" FriendlyName="'Copy to clipboard'" FullSelectorArgument="&lt;webctrl aaname='Copy to clipboard' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Copy to clipboard' tag='BUTTON' type='' check:text='Copy to clipboard' /&gt;" Guid="264db187-a7b2-483d-a1ec-1acb73ba77c7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF+SURBVGhD7ZkxjsJQEENzOao9w3bc/wosI62lr3gsucBJBqV4BU/Y/l8IirBtz+31VbRyMq2cTCsn08rJtHIyrSx+3/xcjDpTd9aVVhZVsF2MOlN31pVWFveFDuCjF3r8uzP56HeoXnfvuxqtLNSFrvTr131iJEAFugvt/ZngTCskwH2hE4hc6Mhfv9pat8vtz00C1Ju7sPJH4GyTACrslKZwtkkAFXZKUzjbJIAKO6UpnG0SQIWd0hTONgmgwk5pCmebBFBhpzSFs00CqLBTmsLZJgFU2ClN4WyTACrslKZwtkkAFXZKUzjbJIAKO6UpnG0SQIWd0hTONgmgwk5pCmebBFBhpzSFs00CqLBTmsLZJgFU2ClN4WyTACrslKZwtkkAFXZKUzjbJIAKO6UpnG0SQIWd0hTONgmgwk5pCmebBFBhpzSFs00CqLBTmsLZJgH2D+XxYHxfOuZBo6JK1tIzuS/U8XUXGvuH11RaOZlWTqaVk2nlZFo5lu31B2IUplSbeWicAAAAAElFTkSuQmCC" InformativeScreenshot="8763ebda84949336106c6faea2c332bd.png" Reference="5gX25v-ebkeu_mM__gCk4g/yczDtxP2O0qUtnvpbcQxVQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Password Generator' /&gt;" SearchSteps="FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="yVEbk4-YLEuT1rB73_HGFQ" IconBase64="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" InformativeScreenshot="2a74281083eb0bdd9512078457de3011.png" Reference="5gX25v-ebkeu_mM__gCk4g/f7vYtvM7UkGZH-lRiT6R1g" Selector="&lt;html app='chrome.exe' title='Password Generator'/&gt;" Url="https://www.rpasamples.com/passwordgenerator" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Paste password in notes&quot;]" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: " sap:VirtualizedContainerService.HintSize="434,560" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="de1f6183-9916-43a2-9b22-96f05084dfc6" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,271" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NKeyboardShortcuts DelayBetweenShortcuts="{x:Null}" ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="334,178" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][d(ctrl)]v[u(ctrl)][u(hk)]" Version="V1" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" ContentHash="oWZ_Obp6hUmSG8-MN3F8Mg" FilePath="C:\Windows\System32\notepad.exe" IconBase64="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" InformativeScreenshot="0e654652cb48fbf9e4d0fc815577302e.png" Reference="5gX25v-ebkeu_mM__gCk4g/i7XF9GxbvUyK1DtmTGYJrw" Selector="&lt;wnd app='notepad.exe' cls='Notepad' title='Sin título: Bloc de notas'/&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
 </Activity>

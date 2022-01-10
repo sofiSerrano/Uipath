@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="WWCJafPmKUemMdhGn4eJYA" DesignTimeRectangle="0, 0, 536, 592" FriendlyName="'Sin título:'" Guid="18af3e06-d5a2-40ca-8a12-adbb5bedae92" ScopeSelectorArgument="&lt;wnd app='notepad.exe' cls='Notepad' title='Sin título: Bloc de notas' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.FuzzySelectorArgument>
+    <p:InArgument x:TypeArguments="x:String">
+      <p:Literal x:TypeArguments="x:String" Value="" />
+    </p:InArgument>
+  </TargetAnchorable.FuzzySelectorArgument>
+  <imageRef attrName="ImageBase64" xmlns="">0kjusYguj8EOATgHCq3BFDg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="9a64dd90ada66b310ccd527c9be0a44e.png" xmlns="">0u-DgrPKiQ0uiMBSI_h6CGw</imageRef>
+</TargetAnchorable>

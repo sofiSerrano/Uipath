@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://www.rpasamples.com/passwordgenerator" ContentHash="bqv2eid53EK5IW45ZL8Phw" DesignTimeRectangle="501, 289, 34, 35" ElementType="InputBox" FriendlyName="'24'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aaname='' /&gt;" Guid="2d076097-bf07-470a-95fd-b23987c2f8da" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Password Generator' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="315, 292, 184, 27" ElementType="Text" FriendlyName="'Password length'" FullSelectorArgument="&lt;webctrl aaname='Password length:' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password length:' tag='SPAN' type='' check:text='Password length:' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1aLzqFT1PbkCzREPWNJ57qw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0-zJYXpmlY06tlo_tDcZ2Jg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="1fb6688ac921f11cceff37132b241428.png" xmlns="">08JDiJrmay0Sc0DPx3s4ATg</imageRef>
+</TargetAnchorable>
