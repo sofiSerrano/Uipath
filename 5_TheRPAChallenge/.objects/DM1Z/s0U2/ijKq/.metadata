@@ -1,0 +1,13 @@
+﻿{
+  "Id": "ijKqvjUe_0G4MnvGgtXdyg",
+  "Reference": "hpEVauXewEepK2Lk2YMNfA/ijKqvjUe_0G4MnvGgtXdyg",
+  "ParentRef": "hpEVauXewEepK2Lk2YMNfA/s0U2wv69vEKcXszxmzYkFQ",
+  "Name": "Firefox: Rpa Challenge",
+  "Type": "Screen",
+  "Created": "2022-01-14T03:08:02.4265815Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-01-14T03:08:02.4265815Z"
+}
